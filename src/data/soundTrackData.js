@@ -8,7 +8,7 @@ import jungleSound from '../audio/jungle.mp3';
 import softPianoSound from '../audio/soft-piano.mp3';
 import spaceSound from '../audio/space-sound.mp3';
 
-import { GiGong, GiRingingBell, GiCampfire, GiPianoKeys, GiJungle, GiDroplets, GiRaining, GiWaves, GiJupiter, GiVacuumCleaner, GiSoundWaves } from "react-icons/gi";
+import { GiGong, GiRingingBell, GiCampfire, GiPianoKeys, GiJungle, GiDroplets, GiRaining, GiWaves, GiJupiter } from "react-icons/gi";
 
 
 const soundData = [
