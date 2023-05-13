@@ -9,7 +9,7 @@ Attraverso il sito web, è possibile apprendere alcuni consigli sulla meditazion
 
 ## Link deploy dell'app con netlify
 
-link: 
+link: https://project-react-meditation.netlify.app/
 
 ## Screenshot
 
