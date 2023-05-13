@@ -3,12 +3,7 @@ import data from '../data/tipsData';
 import SingleTip from './SingleTip';
 
 function Tips() {
-  const [tips,setTips] = useState(data);
-
-  const updateTips = () => {
-    // Aggiorna lo stato di tips
-    setTips([...tips, { id: 4, title: 'New tip' }]);
-  };
+  const tips = useState(data)[0];
 
   return (
     <main className='main-container'>
