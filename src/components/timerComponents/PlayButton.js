@@ -1,10 +1,12 @@
 import React from 'react'
 import { AiFillPlayCircle } from 'react-icons/ai';
 
-export default function PlayButton(props) {
+const PlayButton = (props) => {
   return (
     <button {...props} className='playButton'>
       <AiFillPlayCircle />
     </button>
   )
 }
+
+export default PlayButton;

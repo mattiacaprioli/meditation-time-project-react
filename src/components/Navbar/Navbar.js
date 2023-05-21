@@ -1,17 +1,16 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import logo from '../../images/logo/logo.png';
 import {FaAlignRight} from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import './Navbar.css'
 
-export default class Navbar extends Component {
-  state={
-    isOpen:false
+const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleToggle = () => {
+    setIsOpen(!isOpen);
   }
-  handleToggle = () => {
-    this.setState({isOpen:!this.state.isOpen})
-  }
-  render() {
+
     return (
       <nav className='navbar-container'>
       <div className='nav-center'>
@@ -19,11 +18,11 @@ export default class Navbar extends Component {
               <Link to='/'>
                   <img className='nav-brand' src={logo} alt='Meditation' />
               </Link>
-              <button type='button' className='nav-btn' onClick={this.handleToggle}>
+              <button type='button' className='nav-btn' onClick={handleToggle}>
                   <FaAlignRight className='nav-icon' />
               </button>
           </div>
-          <ul className={this.state.isOpen?'nav-links show-nav':'nav-links'}>
+          <ul className={isOpen?'nav-links show-nav':'nav-links'}>
               <li>
                   <Link to='/'>Home</Link>
               </li>
@@ -35,4 +34,5 @@ export default class Navbar extends Component {
     </nav>
     )
   }
-}
+
+export default Navbar;

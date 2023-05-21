@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Card.css'
 
-export default function Card() {
+const Card = () => {
   return (
     <div className="card bg-white bg-opacity-75">
       <div className="card-body text-center">
@@ -14,3 +14,5 @@ export default function Card() {
     </div>
   )
 }
+
+export default Card

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function TitleTimerPage() {
+const TitleTimerPage = () => {
   return (
     <div className="p-3 mt-5">
       <h5 className="fw-bold text-center pt-5">IT'S TIME FOR MEDITATION</h5>
@@ -8,3 +8,5 @@ export default function TitleTimerPage() {
     </div>
   )
 }
+
+export default TitleTimerPage;

@@ -3,7 +3,7 @@ import data from '../../data/tipsData';
 import SingleTip from './SingleTip';
 import './Tips.css'
 
-function Tips() {
+const Tips = () => {
   const tips = useState(data)[0];
 
   return (

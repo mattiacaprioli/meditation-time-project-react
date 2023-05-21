@@ -7,7 +7,7 @@ import Footer from "./components/Footer/Footer";
 // React router dom
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-function App() {
+const App = () => {
   return (
     <>
     <Router>

@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { BsFillVolumeOffFill, BsFillVolumeDownFill } from "react-icons/bs";
 
 
-export default function SoundItem(props) {
+const SoundItem = (props) => {
     const [isPlaying, setIsPlaying] = useState(false);
     const audioRef = useRef();
     const progressBar = useRef();
@@ -58,3 +58,5 @@ export default function SoundItem(props) {
         </div>
     )
 }
+
+export default SoundItem;

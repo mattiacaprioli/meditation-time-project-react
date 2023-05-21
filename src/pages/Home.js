@@ -4,7 +4,7 @@ import Card from '../components/Card/Card';
 import Tips from '../components/Tips/Tips';
 import Review from '../components/Reviews/Review';
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <Hero>
@@ -15,3 +15,5 @@ export default function Home() {
     </>
   )
 }
+
+export default Home;

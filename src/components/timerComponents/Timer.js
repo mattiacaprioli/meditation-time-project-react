@@ -12,7 +12,7 @@ import SettingsContext from '../../context/SettingsContext';
 const primaryColor = '#af9a7d';
 const mainBlack = '#222';
 
-export default function Timer() {
+const Timer = () => {
   const settingsInfo = useContext(SettingsContext);
 
   const [isPaused, setIsPaused] = useState(true);
@@ -88,3 +88,5 @@ export default function Timer() {
     </div>
   );
 }
+
+export default Timer;

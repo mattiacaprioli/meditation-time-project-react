@@ -3,7 +3,7 @@ import soundData from "../../data/soundTrackData";
 import SoundItem from "./SoundItem";
 import './Sound.css';
 
-export default function SoundsGrid({isStopped, setIsStopped}) {
+const SoundsGrid = ({isStopped, setIsStopped}) => {
 
     
     const sounds = soundData.map(item => {
@@ -23,3 +23,5 @@ export default function SoundsGrid({isStopped, setIsStopped}) {
         </div>
     )
 }
+
+export default SoundsGrid;

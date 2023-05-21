@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.css'
 
-export default function Hero({children,hero}) {
+const Hero = ({children,hero}) => {
   return (
     <header className={hero}>
       {children}
@@ -12,3 +12,5 @@ export default function Hero({children,hero}) {
 Hero.defaultProps = {
     hero : 'defaultHero'
 };
+
+export default Hero;

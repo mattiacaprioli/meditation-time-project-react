@@ -3,7 +3,7 @@ import ReactSlider from 'react-slider';
 import SettingsContext from '../../context/SettingsContext';
 import BackButton from './BackButton';
 
-export default function Settings() {
+const Settings = () => {
     const settingsInfo = useContext(SettingsContext);
 
   return (
@@ -34,3 +34,5 @@ export default function Settings() {
     </div>
   )
 }
+
+export default Settings;
