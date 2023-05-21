@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import Hero from '../components/Hero';
-import TitleTimerPage from '../components/TitleTimerPage';
+import Hero from '../components/Hero/Hero';
+import TitleTimerPage from '../components/timerComponents/TitleTimerPage';
 import Timer from '../components/timerComponents/Timer';
 import Settings from '../components/timerComponents/Settings';
 import SettingsContext from '../context/SettingsContext';
-import SoundsGrid from '../components/SoundsGrid';
+import SoundsGrid from '../components/Sound/SoundsGrid';
 
 const TimerPage = () => {
   const [showSettings, setShowSettings] = useState(false);

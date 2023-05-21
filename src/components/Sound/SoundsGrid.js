@@ -1,6 +1,7 @@
 import React from "react";
-import soundData from "../data/soundTrackData";
+import soundData from "../../data/soundTrackData";
 import SoundItem from "./SoundItem";
+import './Sound.css';
 
 export default function SoundsGrid({isStopped, setIsStopped}) {
 

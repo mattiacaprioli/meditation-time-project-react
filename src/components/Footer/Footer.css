@@ -1,0 +1,11 @@
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--offWhite);
+    height: 50px;
+  }
+  
+/* end of Footer */

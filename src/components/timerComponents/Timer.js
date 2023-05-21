@@ -1,6 +1,7 @@
 import React from 'react';
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
+import './Timer.css';
 
 import PlayButton from './PlayButton';
 import PauseButton from './PauseButton';
