@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Hero from '../components/Hero/Hero';
+import Header from '../components/Header/Header';
 import TitleTimerPage from '../components/timerComponents/TitleTimerPage';
 import Timer from '../components/timerComponents/Timer';
 import Settings from '../components/timerComponents/Settings';
@@ -15,9 +15,9 @@ const TimerPage = () => {
 
   return (
     <>
-      <Hero hero='timerHero' >
+      <Header header='timerHeader' >
         <TitleTimerPage />
-      </Hero>
+      </Header>
       <div className='timerContainer'>
         <SettingsContext.Provider value={{
           showSettings,

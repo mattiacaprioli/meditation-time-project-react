@@ -1,7 +1,7 @@
-/* Hero */
+/* Header */
 
-.defaultHero,
-.timerHero {
+.defaultHeader,
+.timerHeader {
   min-height: calc(90vh - 66px);
   background: url("../../images/hero.jpg") center/cover no-repeat;
   display: flex;
@@ -9,10 +9,10 @@
   justify-content: center;
   padding-top: 50px;
 }
-.timerHero {
+.timerHeader {
   background: var(--primaryColor);
   min-height: 45vh;
   color: var(--mainWhite);
 }
 
-/* end of Hero */
+/* end of Header */
