@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import ReactSlider from 'react-slider';
-import SettingsContext from './SettingsContext';
+import SettingsContext from '../../context/SettingsContext';
 import BackButton from './BackButton';
 
 export default function Settings() {

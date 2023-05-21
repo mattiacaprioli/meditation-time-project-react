@@ -6,7 +6,7 @@ import PlayButton from './PlayButton';
 import PauseButton from './PauseButton';
 import SettingsButton from './SettingsButton';
 import { useContext, useState, useEffect, useRef } from 'react';
-import SettingsContext from './SettingsContext';
+import SettingsContext from '../../context/SettingsContext';
 
 const primaryColor = '#af9a7d';
 const mainBlack = '#222';

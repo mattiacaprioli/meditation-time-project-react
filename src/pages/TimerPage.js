@@ -3,7 +3,7 @@ import Hero from '../components/Hero';
 import TitleTimerPage from '../components/TitleTimerPage';
 import Timer from '../components/timerComponents/Timer';
 import Settings from '../components/timerComponents/Settings';
-import SettingsContext from '../components/timerComponents/SettingsContext';
+import SettingsContext from '../context/SettingsContext';
 import SoundsGrid from '../components/SoundsGrid';
 
 const TimerPage = () => {
