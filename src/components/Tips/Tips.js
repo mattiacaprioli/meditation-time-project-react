@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import data from '../../data/tipsData';
 import SingleTip from './SingleTip';
 import './Tips.css'
 
 const Tips = () => {
-  const tips = useState(data)[0];
+  const tips = data;
 
   return (
     <main className='main-container'>
